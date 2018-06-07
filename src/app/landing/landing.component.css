@@ -1,0 +1,26 @@
+.diamond-landing-img{
+    background: url('.\content\pagepic.jpg');
+    height: 425px;
+    width: 425px;
+}.diamond{
+    border-radius:2em;
+    align-self: center;
+    border: solid green .25em;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -moz-transform: rotate(45deg); /* FireFox */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    margin: 4em;
+}
+.diamond div{
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -moz-transform: rotate(-45deg); /* FireFox */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+}

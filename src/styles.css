@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body{
+    height: relative;
+    width: relative;
+    margin: .5em;
+    justify-content: center;
+}
