@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CarouselService } from './carousel/carousel.service';
-import { CarouselItem } from './carousel/carousel-item';
+// import { CarouselService } from './carousel/carousel.service';
+// import { CarouselItem } from './carousel/carousel-item';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { CarouselItem } from './carousel/carousel-item';
 
 export class AppComponent implements OnInit {
   title = 'Kamron Perry';
-  carousels: CarouselItem[];
+  // carousels: CarouselItem[];
   constructor() {
   }
   ngOnInit() {

@@ -1,0 +1,23 @@
+.diamond{
+    border-radius:2em;
+    align-self: center;
+    border: 3px solid rgba(0, 128, 0, .2);
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -moz-transform: rotate(45deg); /* FireFox */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    margin: 4em;
+    flex-shrink: 0;
+}
+.diamond div{
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -moz-transform: rotate(-45deg); /* FireFox */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+}

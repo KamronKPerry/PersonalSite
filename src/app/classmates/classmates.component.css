@@ -1,0 +1,44 @@
+
+.diamond{
+    border-radius:2em;
+    align-self: center;
+    border: 3px solid rgba(0, 128, 0, .2);
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -moz-transform: rotate(45deg); /* FireFox */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    margin: 4em;
+    flex-shrink: 0;
+}
+.diamond div{
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -moz-transform: rotate(-45deg); /* FireFox */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+}
+.centriq{
+    position: relative;
+    bottom: 0;
+    align-self: flex-end;
+    background: rgba(253, 147, 27, 1);
+    height: 40px;
+    width: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.centriq a{
+    text-decoration: none;
+    color:white;
+}
+.centriq:hover{
+    background: rgba(253, 147, 27, .73)
+}

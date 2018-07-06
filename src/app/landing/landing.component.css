@@ -5,7 +5,7 @@
 }.diamond{
     border-radius:2em;
     align-self: center;
-    border: solid green .25em;
+    border: 3px solid rgba(0, 128, 0, .2);
     transform: rotate(45deg);
     -ms-transform: rotate(45deg); /* IE 9 */
     -moz-transform: rotate(45deg); /* FireFox */
@@ -14,6 +14,7 @@
     height: 300px;
     width: 300px;
     margin: 4em;
+    flex-shrink: 0;
 }
 .diamond div{
     position: absolute;

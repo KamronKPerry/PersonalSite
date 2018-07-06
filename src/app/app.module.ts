@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// tslint:disable-next-line:max-line-length
 import { MatButtonModule, MatDividerModule, MatFormFieldModule, MatInputModule, MatCardModule, MatTooltipModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -10,9 +11,10 @@ import { ContactComponent } from './contact/contact.component';
 import { MiscComponent } from './misc/misc.component';
 import { UpdatesComponent } from './updates/updates.component';
 import { ClassmatesComponent } from './classmates/classmates.component';
-import { CarouselBannerComponent } from './carousel/carousel-banner.component';
-import { CarouselDirective } from './carousel/carousel.directive';
-import { CarouselService } from './carousel/carousel.service';
+import { LipsumComponent } from './lipsum/lipsum.component';
+// import { CarouselBannerComponent } from './carousel/carousel-banner.component';
+// import { CarouselDirective } from './carousel/carousel.directive';
+// import { CarouselService } from './carousel/carousel.service';
 
 @NgModule({
   imports: [
@@ -25,16 +27,18 @@ import { CarouselService } from './carousel/carousel.service';
     MatCardModule,
     MatTooltipModule
   ],
-  providers: [CarouselService],
+  // providers: [CarouselService],
   declarations: [ AppComponent,
-                  CarouselBannerComponent,
+                  // CarouselBannerComponent,
                   LandingComponent,
                   PortfolioComponent,
                   ContactComponent,
                   MiscComponent,
                   UpdatesComponent,
                   ClassmatesComponent,
-                  CarouselDirective ],
+                  LipsumComponent,
+                  // CarouselDirective
+                ],
   entryComponents: [  LandingComponent,
                       PortfolioComponent,
                       ContactComponent,
