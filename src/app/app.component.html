@@ -1,17 +1,27 @@
-<div class="carousel" id="carousel">
+<div class="carousel" id="carousel" (window:resize)="onResize($event)">
 <div class="icon-item-container"><i class="material-icons" id="arrow-up">
   keyboard_arrow_up
 </i></div>
-<!-- <div class="appCarousel">
-     <ng-template appCarousel></ng-template> 
-    <app-carousel-banner [carousels]="carousels"></app-carousel-banner>
-  </div> -->
-  <!-- <app-landing></app-landing> -->
- <!-- <app-portfolio></app-portfolio> -->
-<!-- <app-contact></app-contact>
-<app-misc></app-misc>
-<app-updates></app-updates> -->
-<app-classmates></app-classmates>
+<ul class="slides">
+  <li>
+    <app-landing></app-landing>
+  </li>
+  <li>
+    <app-portfolio></app-portfolio>
+</li> 
+<li>
+  <app-contact></app-contact>
+</li>
+<li>
+  <app-misc></app-misc>
+</li>
+<li>
+  <app-updates></app-updates>
+</li>
+<li>
+  <app-classmates></app-classmates>
+</li>
+</ul>
 <div class="icon-item-container">  <i class=material-icons id="arrow-down">
     keyboard_arrow_down
   </i></div>

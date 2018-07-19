@@ -1,24 +1,7 @@
-:host{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
 .carousel{
-    height: 100%;
+    overflow:hidden;
     width: 100%;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-.icon-item-container{
-    cursor: pointer;
-    color:green;
-}
-#arrow-up:hover, #arrow-down:hover{
-    color: rgba(0, 128, 0, .2);
+    height: 100%;
 }
 .slides{
     list-style: none;
@@ -70,4 +53,3 @@
     98.5% { bottom:-105%; }
     100%  { bottom:-5%; }
 }
-

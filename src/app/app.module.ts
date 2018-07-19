@@ -12,6 +12,8 @@ import { MiscComponent } from './misc/misc.component';
 import { UpdatesComponent } from './updates/updates.component';
 import { ClassmatesComponent } from './classmates/classmates.component';
 import { LipsumComponent } from './lipsum/lipsum.component';
+import { CarouselComponent } from './carousel/carousel.component';
+// import { CarouselComponent } from './carousel/carousel.component';
 // import { CarouselBannerComponent } from './carousel/carousel-banner.component';
 // import { CarouselDirective } from './carousel/carousel.directive';
 // import { CarouselService } from './carousel/carousel.service';
@@ -37,6 +39,8 @@ import { LipsumComponent } from './lipsum/lipsum.component';
                   UpdatesComponent,
                   ClassmatesComponent,
                   LipsumComponent,
+                  CarouselComponent,
+                  // CarouselComponent,
                   // CarouselDirective
                 ],
   entryComponents: [  LandingComponent,

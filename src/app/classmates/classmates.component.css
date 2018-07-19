@@ -23,8 +23,6 @@
     -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
 }
 .centriq{
-    position: relative;
-    bottom: 0;
     align-self: flex-end;
     background: rgba(253, 147, 27, 1);
     height: 40px;
